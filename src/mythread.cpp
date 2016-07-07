@@ -1,4 +1,10 @@
+
 #include "mythread.h"
+
+#include <iostream>
+#include <string>
+#include <unistd.h>
+#include <cstdlib>
 
 using namespace std;
 

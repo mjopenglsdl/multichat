@@ -1,4 +1,12 @@
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+
 #include "client.h"
+#include "server.h"
+#include "mythread.h"
+
+#define MAX_NAME_LENGHT 20
 
 using namespace std;
 

@@ -1,6 +1,15 @@
+#include <iostream>
+
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <unistd.h>
+
+#include "mythread.h"
+#include "client.h"
 #include "server.h"
 
-using namespace std;
+#define PORT 30666
 
 //Actually allocate clients
 vector<Client> Server::clients;
